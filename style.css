@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: linear-gradient(#636162, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: auto;
+    width: 700px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+
+.left {
+    background-color: #fff200;
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    width: 450px;
+    float: left;
+}
+
+.profile-img {
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border: 10px solid black;
+    box-shadow: 6px 7px 9px 5px #fff200;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 1000%;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.heading {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.p1 {
+    padding: 9px;
+    font-size: 11px;
+}
+
+.icons1 {
+    font-size: 16px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+
+.skill-container {
+    width: 90%;
+    background-color: white;
+    margin: 0px 10px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.c {
+    width: 70%;
+    background-color: #4d4d4d;
+}
+
+.java {
+    width: 50%;
+    background-color: #4d4d4d;
+}
+
+.flutter {
+    width: 40%;
+    background-color: #4d4d4d;
+}
+
+.html {
+    width: 60%;
+    background-color: #4d4d4d;
+}
+.css {
+    width: 50%;
+    background-color: #4d4d4d;
+}
+
+.prog {
+    width: 60%;
+    background-color: #4d4d4d;
+}
+.dev{
+    width: 40%;
+    background-color: #4d4d4d;
+}
+.icons2{
+    padding: 18px 10px;
+}
+.name-div{
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.name-div h1{
+    margin-bottom: 10px;
+}
+.box-2{
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.p2{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.icons3{
+    vertical-align: bottom;
+    font-size: 21px!important;
+    color: #4d4d4d;
+}
+.p3{
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+.p3 span{
+    color: #ff9b00;
+    padding-left: 20px;
+}
