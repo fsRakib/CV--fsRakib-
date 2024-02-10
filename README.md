@@ -5,4 +5,4 @@ This is my university academic project.
 
 | Site Link | Site type | Languaage |
 |-|-|-|
-| [Campus Connect](https://fsrakib.github.io/CV--fsRakib-/)https://fsrakib.github.io/CV--fsRakib-/ | CV | HTML & CSS |
+| https://fsrakib.github.io/CV--fsRakib-/ | CV | HTML & CSS |
